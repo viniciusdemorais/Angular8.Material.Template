@@ -1,0 +1,20 @@
+@import "src/theme/theme-variables";
+
+.main-container {
+  position: absolute;
+  top: 56px;
+
+  @media (min-width: 600px) {
+    top: 64px;
+  }
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #444046;
+  ;
+}
+
+.mat-sidenav {
+  width: 216px;
+}
